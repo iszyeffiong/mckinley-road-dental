@@ -1,0 +1,27 @@
+# TODO
+
+## Single McKinley Road Dental homepage at `/`
+- [x] Make the website’s only page the McKinley Road Dental homepage at `/`. Remove the separate `/dental/` page and route; unknown `/dental/` requests return 404 rather than serving a second page. The route manifest contains only `/`. Replace the public Soft Spot homepage with the dental page. Keep page assets and CSS outside the removed `/dental/` path.
+- [x] Build a responsive McKinley Road Dental / Dr. Shawn Sydlowski DDS page with deep navy `#1E3A8A`, soft mint `#0D9488`, off-white `#F8FAFC`, Plus Jakarta Sans display typography, Inter body typography, clear contrast, spacious sections, and local family-consultation and bright-interior image assets.
+- [x] Set the exact title `McKinley Road Dental | Dr. Shawn Sydlowski DDS | Ottawa, IL` and description `Looking for gentle family dentistry in Ottawa, IL? Visit Dr. Shawn Sydlowski at McKinley Road Dental for cleanings, restorative care, and cosmetic dentistry. Call 815-433-3996.` The initial HTML at `/` includes crawlable content and does not invent a canonical domain.
+- [x] Present sections in this order: hero, four services, About, Team, testimonials, service area, contact/appointment, and location map. Hero headline: `Gentle Comprehensive Dental Care in Ottawa`; include patient-first introductory copy and `Schedule Your Visit` / `Call (815) 433-3996` calls to action. Include About and Team navigation links in desktop and mobile navigation.
+- [x] Include these four services, in order, each with two descriptive benefit-focused sentences: `Preventive Cleanings & Exams`, `Restorative Fillings & Crowns`, `Cosmetic Smile Enhancements`, and `Gentle Periodontal Care`.
+- [x] Explain the practice’s patient-first philosophy, gentle treatment approach, comfortable environment, and insurance-question assistance without claiming unverified professional credentials.
+- [x] Add a distinct Team section naming Dr. Shawn Sydlowski, DDS, and referring to the unnamed McKinley Road Dental office team collectively. The official site does not publish other staff names or individual biographies; none are invented.
+- [x] Do not invent or misattribute patient quotations. One Ottawa review is displayed verbatim with reviewer name and Yelp source link. The user approved finishing with two prominently marked review placeholders pending confirmation of their original text. The three-verified-review request remains incomplete until two additional genuine Ottawa excerpts and sources are supplied.
+- [x] Highlight Ottawa, Marseilles, Utica, Naplate, and wider LaSalle County.
+- [x] Include an appointment request form, email and phone links, the official Ottawa hours, address `111 E McKinley Rd, Ottawa, IL 61350`, and an embedded marked OpenStreetMap. Official practice hours: Monday 10:30 a.m.–7:30 p.m.; Tuesday and Thursday 8:00 a.m.–5:00 p.m.; Friday 8:00 a.m.–1:00 p.m. Wednesday hours on the official site refer to Wenona, not Ottawa. The form opens a prefilled email draft; the site does not claim to submit or store the request itself.
+- [x] Keep the responsive navy/mint design and existing navigation and form interactions working at `/`. Production build succeeds; `/` returns HTTP 200; `/dental/` returns HTTP 404; the route manifest declares only `/`; the new About and Team sections were reviewed at desktop and mobile sizes.
+
+## Terms of Service & Notice of Privacy Practices
+- [x] Create dedicated page `/terms-and-privacy/` with comprehensive content tailored to McKinley Road Dental's field of work (family, preventive, restorative, cosmetic, and periodontal dentistry) and its clinical environment.
+- [x] Notice of Privacy Practices (HIPAA): Detailed patient rights under HIPAA and Illinois law (735 ILCS 5/8-2001), scope of dental PHI (radiographs, periodontal charting, treatment plans, clinical notes), uses and disclosures for treatment, payment, healthcare operations, and communication.
+- [x] Clinical Environment & Safety: Sterilization protocols (CDC/OSHA/ADA compliance, autoclave sterilization with weekly biological spore testing, EPA-registered operatory surface disinfection, single-use disposables) and digital low-dose radiography safety (ALARA, lead shielding, IEMA compliance).
+- [x] Terms of Service: Explicit notices that website content is educational and does not establish a doctor-patient relationship, dental emergency triage instructions (office phone, 911, and OSF Saint Elizabeth Emergency Department), 24-48 hour courtesy scheduling notices, good-faith dental insurance estimates vs. carrier determination, and non-discrimination.
+- [x] Navigation & Access: Added links in the homepage header, mobile navigation, appointment request form note, and footer. Created `/terms` and `/privacy` convenience redirects and updated `vite.config.ts` and `manus-routes.json`.
+
+## Official Logo, Favicon & Verified Contact Information
+- [x] Integrate official McKinley Road Dental logo as website header brand mark, footer emblem, and browser favicon (`/favicon.png`, `/logo.png`).
+- [x] Updated contact telephone to official international format `+1 815-433-3996` with direct click-to-call links.
+- [x] Added official Facebook social profile `https://web.facebook.com/mckinleyroaddental` with custom Facebook icon to contact section and footer links.
+- [x] Verified practice address: `111 E McKinley Rd, Ottawa, IL 61350, United States` confirmed across interactive maps, location cards, contact blocks, and policy disclosures.
